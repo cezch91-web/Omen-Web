@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omen Futbol - Predicciones de Alto Valor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 🏟️ Portada -->
+  <header class="hero">
+    <video autoplay muted loop class="bg-video">
+      <source src="assets/intro.mp4" type="video/mp4">
+    </video>
+    <div class="overlay">
+      <img src="assets/logo.png" alt="Omen Futbol" class="logo">
+      <h1>Predicciones de Alto Valor – 100% Gratis</h1>
+      <p>Estadísticas, intuición y estrategia en cada pick</p>
+      <a href="#pick-del-dia" class="btn">Ver Pick del Día</a>
+    </div>
+  </header>
+
+  <!-- 📊 Pick del día -->
+  <section id="pick-del-dia" class="section">
+    <h2>📍 Pick Destacado de Hoy</h2>
+    <div class="pick-card">
+      <h3>Barcelona vs PSG – Champions League</h3>
+      <p><strong>Pick:</strong> Más de 2.5 goles – Momio 1.90</p>
+      <p><strong>Análisis:</strong> Ambos equipos promedian 3.1 goles por partido. 78% de sus últimos duelos superaron los 2.5.</p>
+      <a href="#" class="cta-bet">Apostar en Bet365</a>
+    </div>
+  </section>
+
+  <!-- 🧠 Últimos Picks -->
+  <section class="section picks">
+    <h2>📈 Últimos Picks Publicados</h2>
+    <table>
+      <tr><th>Partido</th><th>Pick</th><th>Momio</th><th>Resultado</th></tr>
+      <tr><td>Arsenal vs Man City</td><td>Arsenal +0.5</td><td>1.85</td><td>🟢 Ganado</td></tr>
+      <tr><td>Real Madrid vs Milan</td><td>+2.5 goles</td><td>1.95</td><td>🔴 Perdido</td></tr>
+      <tr><td>Inter vs Napoli</td><td>Inter ML</td><td>1.72</td><td>🟢 Ganado</td></tr>
+    </table>
+  </section>
+
+  <!-- 🎥 Clips y estadísticas -->
+  <section class="section videos">
+    <h2>🎥 Jugadas destacadas</h2>
+    <div class="video-grid">
+      <video controls src="assets/gol1.mp4"></video>
+      <video controls src="assets/corner1.mp4"></video>
+      <video controls src="assets/roja1.mp4"></video>
+    </div>
+  </section>
+
+  <!-- 🪙 Espacio para anuncios -->
+  <section class="ads">
+    <h2>📢 Anuncio Patrocinado</h2>
+    <div class="ad-banner">
+      <!-- Aquí luego pegas el script de Google AdSense o afiliado -->
+      <p>Espacio publicitario disponible</p>
+    </div>
+  </section>
+
+  <!-- 📬 Comunidad -->
+  <footer>
+    <p>Únete a nuestra comunidad de apostadores en <a href="#">Telegram</a></p>
+    <p>© 2025 Omen Futbol – Predicciones gratuitas con análisis profesional.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

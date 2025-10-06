@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel Omen Futbol</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="login-container" id="login-section">
+    <h1>🔐 Acceso Privado</h1>
+    <input type="text" id="username" placeholder="Usuario">
+    <input type="password" id="password" placeholder="Contraseña">
+    <button onclick="login()">Ingresar</button>
+    <p id="login-error" class="error"></p>
+  </div>
+
+  <div class="admin-container" id="admin-section" style="display:none;">
+    <h1>📊 Panel de Administración – Omen Futbol</h1>
+
+    <!-- 📌 Formulario para subir nuevo pick -->
+    <form id="pick-form">
+      <h2>Agregar nuevo pick</h2>
+      <label>Partido:</label>
+      <input type="text" id="match" required>
+
+      <label>Pick:</label>
+      <input type="text" id="pick" required>
+
+      <label>Momio:</label>
+      <input type="text" id="odds" required>
+
+      <label>Análisis breve:</label>
+      <textarea id="analysis" rows="4" required></textarea>
+
+      <label>Video URL (opcional):</label>
+      <input type="text" id="video">
+
+      <button type="button" onclick="addPick()">📥 Guardar Pick</button>
+      <p id="success-msg" class="success"></p>
+    </form>
+
+    <!-- 📋 Lista de picks agregados -->
+    <div class="picks-list">
+      <h2>📁 Picks agregados recientemente</h2>
+      <table id="picks-table">
+        <tr>
+          <th>Partido</th>
+          <th>Pick</th>
+          <th>Momio</th>
+          <th>Análisis</th>
+          <th>Video</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
